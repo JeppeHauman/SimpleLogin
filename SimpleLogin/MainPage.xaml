@@ -8,7 +8,16 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid Background="#FF0F0000">
+        <StackPanel Margin="0,212,0,0" Background="#FF4B2D01" HorizontalAlignment="Center" VerticalAlignment="Top" Height="231">
+            <TextBlock Text="Login" TextWrapping="Wrap" Height="38" Width="141" FontSize="20" HorizontalAlignment="Center" Margin="30,50,30,0"/>
+            <TextBox Text="" PlaceholderText="Username" TextWrapping="Wrap" Width="147" FontWeight="Bold"/>
+            <PasswordBox PlaceholderText="Password" Width="147" Password="" FontWeight="Bold" Margin="0,2,0,0"/>
+            <Button Content="Login" Margin="30,30,0,0" Width="70"/>
+            <Button Content="Cancel" Margin="101,-32,0,0" Width="70"/>
+
+        </StackPanel>
+
 
     </Grid>
 </Page>
